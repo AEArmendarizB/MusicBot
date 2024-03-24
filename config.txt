@@ -13,14 +13,14 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = MTIyMTI3OTc3ODU5ODgxMzc1Ng.GwFTXS.LTQzSNeQKTmPJIQlTv8abiEegaGlZFGNcVzwek
+token = {Insert Bot Token}
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 740360167174045796
+owner = {Insert your Discord ID}
 
 
 // This sets the prefix for the bot
@@ -28,7 +28,7 @@ owner = 740360167174045796
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "!!"
+prefix = ""
 
 
 // If you set this, it modifies the default game of the bot
@@ -142,14 +142,14 @@ aliases {
   // Music commands
   lyrics = []
   nowplaying = [ np, current ]
-  play = [p]
-  playlists = [ pls ]
+  play = []
+  playlists = []
   queue = [ list ]
   remove = [ delete ]
   scsearch = []
-  search = [ find ]
-  shuffle = [ mix ]
-  skip = [ skip ]
+  search = []
+  shuffle = []
+  skip = []
 
   // Admin commands
   prefix = [ setprefix ]
